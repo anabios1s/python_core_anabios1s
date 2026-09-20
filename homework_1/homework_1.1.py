@@ -1,3 +1,4 @@
+#1. Привести к целому типу -1.6, 2.99
 number_1 = -1.6
 number_2 = 2.99
 
@@ -9,10 +10,3 @@ print(result1)
 
 result2 = "Значение до приведения: {}, значение после приведения к целому: {}".format(number_2, int_number_2)
 print(result2)
-
-# ниже тренировочка, это не дз
-# print(id(final_int_number_1))
-# print(final_int_number_1)
-# print(id(final_int_number_2))
-# print(final_int_number_2)
-
