@@ -3,4 +3,4 @@
 
 stroka1 = 'employ'
 stroka2 = 'employment'
-print('employ' in stroka1)
+print('employ' in stroka2)
