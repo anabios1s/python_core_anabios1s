@@ -7,9 +7,11 @@ array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 
 del_1 = 3
 del_2 = 5
 for number in array:
-    if number % del_1 == 0:
-        print(f"{number}  Bug")
+    if number % del_1 == 0 and number % del_2 == 0:
+        print(f"{number} BugTest")
+    elif number % del_1 == 0:
+        print(f"{number} Bug")
     elif number % del_2 == 0:
-        print(f"{number}  Test")
+        print(f"{number} Test")
     else:
-        print(f"{number}")
+        print(number)
