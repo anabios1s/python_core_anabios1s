@@ -1,0 +1,12 @@
+[
+    {
+        "login": "user_1",
+        "password": "password_1",
+        "expected_result": "PASS"
+    },
+    {
+        "login": "user_2",
+        "password": "password_2",
+        "expected_result": "FAIL"
+    }
+]

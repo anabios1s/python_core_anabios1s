@@ -1,0 +1,22 @@
+[
+    {
+        "name": "test_1",
+        "status": "PASS",
+        "time": 0.5
+    },
+    {
+        "name": "test_2",
+        "status": "FAIL",
+        "time": 1.2
+    },
+    {
+        "name": "test_3",
+        "status": "FAIL",
+        "time": 0.2
+    },
+    {
+        "name": "test_4",
+        "status": "another_stat",
+        "time": 0.2
+    }
+]
